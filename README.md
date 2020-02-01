@@ -1,2 +1,1 @@
-# javascript_basics
-Training geekbrains.ru. JavaScript basics
+Обучение geekbrains.ru. Профессия Программист Python. Курс Алгоритмы и структуры данных на Python. Базовый курс.
