@@ -1,0 +1,67 @@
+.clear-fix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.fifth,
+.fourth,
+.third{
+    margin: 50px 0 50px 20px;
+}
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    margin-top: 135px;
+}
+.visible{
+    display: block;
+}
+.modal-content {
+    background-color: #d1d1d1;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+}
+.close {
+    color: #686868;
+    float: right;
+    font-size: 40px;
+}
+.close:hover{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.products{
+    float: left;
+    padding-right: 20px;
+}
+.products img{
+    display: block;
+    margin: 20px 0 20px 0;
+}
+.product-detail{
+    width: 150px;
+    margin: 15px 0 13px 0;
+}
+.chess-board{
+    width: 270px;
+    height: 270px;
+}
+.cell{
+    width: 30px;
+    height: 30px;
+    float: left;
+    outline: 1px solid black;
+    text-align: center;
+    background: #aeaeae;
+}
+.black {
+    background: #000;
+}
+.white{
+    background: #fff;
+}
